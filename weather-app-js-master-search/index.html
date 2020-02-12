@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="font/Rimouski.css">
+</head>
+<body>
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+	 <div class="container">
+        <div class="app-title">
+		<section class="location">
+        <div class="city"></div>
+        <div class="date"></div>
+      </section>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+               <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- &#176;<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="current-location">
+                <p>-</p>
+            </div>
+			<div class="hi-low"></div>
+        </div>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>
